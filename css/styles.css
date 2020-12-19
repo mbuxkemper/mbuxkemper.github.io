@@ -1,0 +1,615 @@
+
+/* Style for body specifies a background color */
+body {
+	background-color: #1D1D1C;
+}
+
+/* Style to create a fluid image */
+img {
+	max-width: 100%;
+}
+
+/* Styles for mobile layout */
+/* ///////////////////////////////////////////////////////////////// */
+
+/* Style for container centers the page and sets the element width */
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style Rules for Font */
+h1, h2, h3, p {
+	font-family: 'Roboto', sans-serif;
+
+}
+
+/* Style for header */
+header {
+	text-align: center;
+}
+
+header img{
+	position: relative;
+	top: 30px;
+	width: 40%;
+}
+
+/* Style for nav specifies text properties */
+nav {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Hamburger Menu */
+/* Hide Tablet Navigation */
+
+.tablet-nav{
+	display: none;
+}
+.menu-icon{
+	color: #FFFFFF;
+	display: flex;
+	justify-content: flex-end;
+	width: 95%;
+}
+
+#menu-links{
+	display: none;
+}
+
+/* Style specifies padding and margins for unordered list */
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	
+}
+
+/* Style for nav li */
+nav li {
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #e65656 0%, #681d63 100%);
+	border-radius: .25em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
+	text-shadow: 1px 1px 1px black;
+	
+	
+}
+
+nav li:nth-child(1){
+	background: rgb(2,0,36);
+	background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgb(248, 225, 133) 0%, rgba(255,224,96,1) 100%);
+}
+nav li:nth-child(2){
+	background: rgb(2,0,36);
+	background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(255,224,96,1) 0%, #f7a155 100%);
+}
+nav li:nth-child(3){
+	background: rgb(2,0,36);
+	background: linear-gradient(180deg, rgba(2,0,36,1) 0%, #f7a155 0%,  #ef674f 100%);
+}
+nav li:nth-child(4){
+	background: rgb(2,0,36);
+	background: linear-gradient(180deg, rgba(2,0,36,1) 0%, #ef674f 0%, #ce6378 100%);
+}
+nav li:nth-child(5){
+	background: rgb(2,0,36);
+	background: linear-gradient(180deg, rgba(2,0,36,1) 0%, #ce6378 0%, #a663a1 100%);
+}
+
+/* Style changes navigation link text color to white and removes the underline */
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/* Style hides the tablet class */
+.tablet {
+	display: none;
+}
+
+/* Style displays the mobile class */
+.mobile {
+	display: inline;
+}
+
+/* Style hides the desktop class */
+.desktop {
+	display: none;
+}
+
+/* Style for main element */
+main {
+	color: #FFFFFF;
+	display: block;
+	font-family: verdana, arial, sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 1em;
+	border-radius: 2em 0 2em 0;
+	/* opacity: 0.85; */
+}
+/* Style for Sections */
+section{
+	background-color: #2A2A2A;
+	padding: 1%;
+}
+#ASU, #DC, #Bluebonnet, #RED, #MBFA{
+	padding: 5%;
+}
+#skills ul, #DC ul{
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
+}
+
+li{
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+#DC ul, #ASU ul, #Bluebonnet ul, #RED ul, #MBFA ul{
+	padding-inline-start: 0px;
+}
+#skills h2, #overview2 h2{
+	text-align: left;
+	padding-left: 5%;
+	text-decoration: underline;
+	text-decoration-color: orchid;
+}
+#MBFA, #RED, #Bluebonnet, #ASU{
+	margin-bottom: 20px;
+}
+#overview, #overview2{
+	text-align: left;
+	padding: 1% 5%;
+}
+#skills{
+	padding-right: 5%;
+}
+/* Style Rule for Work Logos */
+.logos{
+	width: 75%;
+	margin-left: 12.5%;
+}
+/* Style Rules Education */
+.li-title {
+	list-style-type: none;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+.append{
+	position: relative;
+	bottom: 10px;
+	text-align: center;
+	color: lightgray;
+}
+
+/* Style Rule for Education Images */
+#ASU img, #DC img{
+	width: 95%;
+	height: auto;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+/* Style for footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+	color: #FFFFFF;
+}
+
+/* Style for anchor elements within the footer element */
+footer a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/* Style hides the tab-desk class */
+.tab-desk {
+	display: none;
+}
+/* Style rule for the copyright div */
+#copyright {
+	float: right;
+	margin-top: 2em;
+	width: 60%;
+}
+
+/* Style for social div */
+#social {
+	float: right;
+	width: 20%;
+}
+
+/* Style rule for social media icons */
+#social img {
+	padding: 0.5em;
+}
+
+/* Styles for headings element */
+h1 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.3em;
+
+}
+h2{text-align: center;
+font-size: 1.6em;
+}
+/* Style Rules for Home */
+.introduction{
+	line-height: 95%;
+	text-align: left;
+	font-family: 'Archivo Black', sans-serif;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+.introduction-sub{
+	line-height: 95%;
+	text-align: left;
+	font-family: 'Archivo Black', sans-serif;
+}
+#welcome{
+	color: orchid;
+}
+/* Style Rules for Gallery */
+.gallery{
+	/* float: left; */
+	width: 96%;
+	padding: 2%;
+		/* flex: 1; */
+		/* height: 100%; */
+	background-color: #302f2f;
+	margin: 1%;
+	margin-bottom: 3%;
+	border-radius: 10px;	
+	
+}
+.gallery img{
+	width: 100%;
+	margin-bottom: 4%;
+	border-radius: 5px;
+}
+.caption{
+	text-align: center;
+}
+
+/* Media query for tablet viewport targets screen size with a minimum width of 660px. */
+
+@media only screen and (min-width: 660px) {
+/* Style Rules for HomePage Grid */
+#overview {grid-column: 1/ span 2;}
+#overview2{
+	display: block;
+	grid-column: 1;}
+#skills {grid-column: 2;}
+.grid-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+}
+header img{
+	width: 30%;
+	position: static;
+}
+/* Hide Mobile Navigation */
+.mobile-nav{
+	display: none;
+}
+.tablet-nav{
+	display: block;
+}
+	/* Style for navigation links */
+	nav{
+		margin-bottom: 20px;
+	}
+	
+	nav li {
+		display: inline;
+		margin-left: 1px;
+		margin-right: 1px;
+		width: 18%;
+		white-space: nowrap;
+		border-radius: 0;
+		background-color: transparent;
+		text-shadow: 1px 1px 1px black;
+		
+	}
+
+	nav li:nth-child(1){
+		background: rgb(2,0,36);
+		background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(248, 225, 133) 0%, rgba(255,224,96,1) 100%);
+	}
+	nav li:nth-child(2){
+		background: rgb(2,0,36);
+		background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,224,96,1) 0%, #f7a155 100%);
+	}
+	nav li:nth-child(3){
+		background: rgb(2,0,36);
+		background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #f7a155 0%,  #ef674f 100%);
+	}
+	nav li:nth-child(4){
+		background: rgb(2,0,36);
+		background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #ef674f 0%, #ce6378 100%);
+	}
+	nav li:nth-child(5){
+		background: rgb(2,0,36);
+		background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #ce6378 0%, #a663a1 100%);
+	}
+	/* Style for the main element */
+	main {
+		clear: left;
+		margin-top: -0.3em;
+		border-radius: 0;
+		overflow: auto;
+	}
+	
+	/* Style specifies to hide the mobile class */
+	.mobile {
+		display: none;
+	}
+	
+	/* Style specifies to display the desktop class */
+	.desktop {
+		display: inline;
+	}
+	
+	
+	/* Style for h1 element */
+	h1 {
+		text-align: center;
+		margin-top: 1%;
+	}
+	/* Style for h2 element */
+	h2{
+		font-size: 1.3em;
+	}
+	/* UL MARGIN */
+	ul{
+		line-height: 150%;
+		padding-inline-start: 20px;
+	}
+	#skills ul{
+		/* padding-inline-start: 40px; */
+		line-height: 100%;
+		margin-left: 10px;
+	}
+
+	#overview2 p{
+		line-height: 150%;
+	}
+	/* Style rule for homepage Sections */
+	#Bluebonnet, #MBFA, #RED, #DC, #ASU{
+		flex: 1;
+	}
+	/* Style rule for Experience Sections */
+	#Bluebonnet, #MBFA, #RED{
+		float: left;
+		width: 29%;
+		/* padding: 10px; */
+		margin-left: .5em;
+	}
+	.logos{
+		width: 90%;
+		margin-left: 5%;
+	}
+	section img{
+		width: 90%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#ASU, #DC, #Bluebonnet, #RED, #MBFA{
+		padding: 2%;
+	}
+	#ASU, #DC{
+		padding: 3%;
+	}
+/* Style rule banner image */
+#banner img{
+	width: 96%;
+	margin-left: 2%;
+}
+	/* Style Rules for Education Sections */
+	#ASU, #DC {
+		width: 44%;
+    	float: left;
+    	margin: 0 2%;
+	}
+	/* Style Rule for Gallery 2 tiles */
+	.gallery{
+		flex: 1;
+		float: left;
+		width: 46%;
+		padding: 2%;
+	}
+	.row{
+		display: flex;
+		clear: both;
+		/* background-color: #2A2A2A; */
+		float: left;
+	}
+
+	.append{
+		font-size: 1.2em;
+	}
+}
+
+/* Media query for desktop viewport targets screens with a minimum width of 830px */
+
+@media only screen and (min-width: 830px) {
+	.introduction{
+		font-size: 4vw;
+	}
+	.introduction-sub{
+		font-size: 2.75vw;
+	}
+
+	#container {
+		background-color: #1D1D1C;
+	}
+	
+	/* Style for nav */
+	nav {
+		margin-bottom: 0;
+	}
+	
+	/* Style for navigation links specifies display and padding */
+	nav li a {
+		display: inline-block;
+		padding: 0.7em;
+		text-shadow: 1px 1px 1px black;
+	}
+	/* Style for Logo*/
+	header img{
+		width: 20%;
+	}
+	
+	/* Style rules for pseudo-classes */
+	nav li a:link {
+		color: #FFFFFF;
+	}
+	
+	
+	nav li a:hover {
+		color: #1D1D1C;
+		text-shadow: papayawhip 1px 1px;
+		
+	}
+	
+	/* Style for main element */
+	main {
+		background-color: #1D1D1C;
+		padding: 2%;
+	}
+	
+	.p-main {
+		color: #FFFFFF;
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+	}
+	
+	/* Style applies color to h1 element */
+	h1 {
+		/* color: #FFFFFF; */
+		font-size: 2.5em;
+	}
+	
+	/* styles for footer element */
+	footer {
+		background-color: #2A2A2A;
+		margin-top: -0.2em;
+		padding: 2em;
+		overflow: auto;
+	}
+	
+	
+	/* Style for main h2 element */
+	main h2 {
+		font-size: 1.6em;
+	}
+
+
+	
+	#ASU, #DC {
+		width: 44%;
+    	float: left;
+    	margin: 0 2%;
+	}
+	/* Style Rule For Grid */
+	.grid-container{
+		grid-gap: 20px;
+	}
+	/* Style Rule For Gallery 4 tiles */
+	.box {
+		width: 25%;
+	 }
+	 .append{
+		 font-size: 1.4em;
+	 }
+}
+
+/* ANIMATION */
+.fade-in4 {
+	animation: fadeIn ease 2s;
+	animation-delay: 1.5s;
+	animation-fill-mode: both;
+	-webkit-animation: fadeIn ease 2s;
+	-webkit-animation-delay: 1.5s;
+	-webkit-animation-fill-mode: both;
+	-moz-animation: fadeIn ease 2s;
+	-moz-animation-delay: 1.5s;
+	-moz-animation-fill-mode: both;
+	-o-animation: fadeIn ease 2s;
+	-ms-animation: fadeIn ease 2s;
+	} 
+.fade-in3 {
+	animation: fadeIn ease 2s;
+	animation-delay: 1s;
+	animation-fill-mode: both;
+	-webkit-animation: fadeIn ease 2s;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-fill-mode: both;
+	-moz-animation: fadeIn ease 2s;
+	-moz-animation-delay: 1s;
+	-moz-animation-fill-mode: both;
+	-o-animation: fadeIn ease 2s;
+	-ms-animation: fadeIn ease 2s;
+	} 
+.fade-in2 {
+	animation: fadeIn ease 2s;
+	animation-delay: .5s;
+	animation-fill-mode: both;
+	-webkit-animation: fadeIn ease 2s;
+	-webkit-animation-delay: .5s;
+	-webkit-animation-fill-mode: both;
+	-moz-animation: fadeIn ease 2s;
+	-moz-animation-delay: .5s;
+	-moz-animation-fill-mode: both;
+	-o-animation: fadeIn ease 2s;
+	-ms-animation: fadeIn ease 2s;
+	}
+	
+.fade-in {
+		animation: fadeIn ease 2s;
+		-webkit-animation: fadeIn ease 2s;
+		-moz-animation: fadeIn ease 2s;
+		-o-animation: fadeIn ease 2s;
+		-ms-animation: fadeIn ease 2s;
+		}
+		@keyframes fadeIn {
+		0% {opacity:0;}
+		100% {opacity:1;}
+		}
+		
+		@-moz-keyframes fadeIn {
+		0% {opacity:0;}
+		100% {opacity:1;}
+		}
+		
+		@-webkit-keyframes fadeIn {
+		0% {opacity:0;}
+		100% {opacity:1;}
+		}
+		
+		@-o-keyframes fadeIn {
+		0% {opacity:0;}
+		100% {opacity:1;}
+		}
+		
+		@-ms-keyframes fadeIn {
+		0% {opacity:0;}
+		100% {opacity:1;}
+		}
+
+
+
