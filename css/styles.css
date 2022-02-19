@@ -63,6 +63,7 @@ nav {
 
 /* Style specifies padding and margins for unordered list */
 nav ul {
+	background-color: #2A2A2A;
 	padding: 0;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
@@ -71,8 +72,8 @@ nav ul {
 
 /* Style for nav li */
 nav li {
-	background: rgb(2,0,36);
-	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #e65656 0%, #681d63 100%);
+	/* background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #e65656 0%, #681d63 100%); */
 	border-radius: .25em;
 	list-style-type: none;
 	margin: 0.3em;
@@ -82,7 +83,11 @@ nav li {
 	
 }
 
-nav li:nth-child(1){
+.current{
+	color: orchid;
+}
+
+/* nav li:nth-child(1){
 	background: rgb(2,0,36);
 	background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgb(248, 225, 133) 0%, rgba(255,224,96,1) 100%);
 }
@@ -101,7 +106,7 @@ nav li:nth-child(4){
 nav li:nth-child(5){
 	background: rgb(2,0,36);
 	background: linear-gradient(180deg, rgba(2,0,36,1) 0%, #ce6378 0%, #a663a1 100%);
-}
+} */
 
 /* Style changes navigation link text color to white and removes the underline */
 nav li a {
@@ -324,7 +329,7 @@ header img{
 		
 	}
 
-	nav li:nth-child(1){
+	/* nav li:nth-child(1){
 		background: rgb(2,0,36);
 		background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(248, 225, 133) 0%, rgba(255,224,96,1) 100%);
 	}
@@ -343,7 +348,7 @@ header img{
 	nav li:nth-child(5){
 		background: rgb(2,0,36);
 		background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #ce6378 0%, #a663a1 100%);
-	}
+	} */
 	/* Style for the main element */
 	main {
 		clear: left;
@@ -467,6 +472,8 @@ header img{
 		display: inline-block;
 		padding: 0.7em;
 		text-shadow: 1px 1px 1px black;
+		margin-left: 2%;
+		margin-right: 2%;
 	}
 	/* Style for Logo*/
 	header img{
@@ -480,8 +487,8 @@ header img{
 	
 	
 	nav li a:hover {
-		color: #1D1D1C;
-		text-shadow: papayawhip 1px 1px;
+		color: orchid;
+		/* text-shadow: papayawhip 1px 1px; */
 		
 	}
 	
